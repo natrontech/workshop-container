@@ -39,7 +39,7 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS        
 26f164a65285   mariadb   "docker-entrypoint.s…"   9 minutes ago   Exited (0) 2 minutes ago             focused_noether
 ```
 
-Wir haben somit den conteiner "gracefully" gestoppt, aber es gibt auch die Möglichkeit, einen Container "forcefully" zu stoppen. Dazu gibst du den folgenden Befehl ein:
+Wir haben somit den container "gracefully" gestoppt, aber es gibt auch die Möglichkeit, einen Container "forcefully" zu stoppen. Dazu gibst du den folgenden Befehl ein:
 
 ```bash
 docker kill focused_noether

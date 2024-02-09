@@ -132,7 +132,6 @@ Denke an ein Image wie an einen **Bauplan**, der verwendet wird, um Container zu
 Wenn du ein Image ausführst, wird es zu einem Container.
 - Ein Image ist ein schreibgeschütztes Dateisystem
 - Ein Container ist ein eingekapselter Satz von Prozessen, der in einer schreibbaren Kopie dieses Dateisystems läuft
-- Um die Startzeit des Containers zu optimieren, wird statt einer regulären Kopie die Technik des "Copy-on-Write" verwendet
 - `docker run` startet einen Container aus einem gegebenen Image
 
 </p>
