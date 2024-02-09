@@ -1,0 +1,1 @@
+(self.webpackChunkworkshop_container=self.webpackChunkworkshop_container||[]).push([[444],{1704:(s,c,e)=>{"use strict";e.d(c,{c:()=>o});var n=e(2580);const o=n},6512:()=>{}}]);
