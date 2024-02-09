@@ -1,6 +1,6 @@
 ---
-title: 8. MariaDB-Container verbinden
-sidebar_position: 9
+title: 9. MariaDB-Container verbinden
+sidebar_position: 10
 ---
 
 In diesem Lab erweitern wir unsere Python-Webanwendung, sodass sie auf eine MariaDB-Instanz zugreifen und Daten lesen kann. Dies ermöglicht es uns, dynamische Inhalte in unserer Flask-App anzuzeigen, die aus der Datenbank abgerufen werden.
@@ -63,7 +63,7 @@ Um die Flask-Anwendung zu erweitern, damit sie auf die MariaDB-Instanz zugreifen
 
 Füge `PyMySQL` zur `requirements.txt` hinzu:
 
-```
+```plaintext title="requirements.txt"
 Flask==3.0.2
 PyMySQL==1.1.0
 ```
@@ -72,7 +72,7 @@ PyMySQL==1.1.0
 
 Aktualisiere die `app.py`, um eine Verbindung zur MariaDB herzustellen und Daten aus der `users`-Tabelle zu lesen:
 
-```python
+```python title="app.py"
 from flask import Flask, jsonify
 import pymysql.cursors
 

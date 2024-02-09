@@ -25,7 +25,7 @@ Dies zeigt die Images im lokalen Register mit ihrem Namen und Tags an.
 
 Als Nächstes bereiten wir einen einfachen Flask-Webserver vor. Erstelle dafür eine Datei namens `app.py` mit folgendem Inhalt:
 
-```python
+```python title="app.py"
 from flask import Flask
 app = Flask(__name__)
 
@@ -39,13 +39,13 @@ if __name__ == '__main__':
 
 Zusätzlich benötigst du eine `requirements.txt`-Datei für Flask:
 
-```
+```plaintext title="requirements.txt"
 Flask==3.0.2
 ```
 
 Erstelle ein `Dockerfile`, um die App und ihre Abhängigkeiten in ein Image zu packen:
 
-```Dockerfile
+```Dockerfile title="Dockerfile"
 FROM python:3.12-slim
 WORKDIR /app
 COPY requirements.txt requirements.txt
@@ -81,3 +81,5 @@ Wenn du unter Windows oder macOS arbeitest und den Container bereits gestartet h
 :::
 
 Damit hast du erfolgreich einen Frontend-Container mit einer Python-Webanwendung deployt, die auf Flask basiert.
+
+Im nächsten Lab lernst du, wie genau ein Container Image erstellt wird.
