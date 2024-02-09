@@ -194,7 +194,7 @@ exit
 
 um den Container zu verlassen.
 
-# Detached Containers
+## Detached Containers
 
 Es gibt eine Möglichkeit, Container im Hintergrund laufen zu lassen, ohne dass sie die Shell blockieren. Dafür musst du den Parameter `-d` verwenden, z.B.:
 
