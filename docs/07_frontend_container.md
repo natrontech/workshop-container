@@ -76,7 +76,7 @@ Nun kannst du versuchen, dich mit dem Server über die zugewiesene Docker-IP-Adr
 
 Wenn du innerhalb einer Umgebung ohne direkten Browserzugriff arbeitest (z.B. Webshell), kannst du `curl http://localhost:5000` verwenden, um die Seite in deinem Terminal zu öffnen.
 
-:::tip Hinweis für Windows und macOS
+:::info Hinweis für Windows und macOS
 Wenn du unter Windows oder macOS arbeitest und den Container bereits gestartet hast, solltest du in der Lage sein, direkt über **http://localhost:5000** auf die Webanwendung zuzugreifen, dank der Portweiterleitung, die im `docker run`-Befehl definiert wurde.
 :::
 

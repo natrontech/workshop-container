@@ -120,4 +120,4 @@ Starte den Flask-Container erneut:
 docker run -d -p 5000:5000 --name python-webapp --link mariadb-container:mariadb-container python-flask-app
 ```
 
-Nun kannst du auf <http://localhost:5000> zugreifen, um die Daten aus der MariaDB-Instanz in deiner Flask-Anwendung angezeigt zu bekommen.
+Nun kannst du auf **http://localhost:5000** zugreifen, um die Daten aus der MariaDB-Instanz in deiner Flask-Anwendung angezeigt zu bekommen.
