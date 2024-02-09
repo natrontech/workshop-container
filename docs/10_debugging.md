@@ -31,13 +31,13 @@ Um den aktuellen Status deiner Container zu überprüfen, kannst du verschiedene
 
 - **Laufende Container anzeigen:** Der Standardbefehl `docker ps` zeigt alle aktuell laufenden Container an.
   
-- **Alle Container anzeigen:** Mit `docker ps -a` erhältst du eine Liste aller Container, einschließlich der gestoppten.
+- **Alle Container anzeigen:** Mit `docker ps -a` erhältst du eine Liste aller Container, einschliesslich der gestoppten.
   
 - **Den letzten Container anzeigen:** `docker ps -l` zeigt den zuletzt gestarteten Container an.
   
 - **Nur IDs laufender Container anzeigen:** Mit `docker ps -q` kannst du schnell die IDs aller laufenden Container abrufen.
   
-- **Containergrößen anzeigen:** `docker ps -s` gibt zusätzlich die Größe der Container aus.
+- **Containergrössen anzeigen:** `docker ps -s` gibt zusätzlich die Grösse der Container aus.
 
 :::info Hinweis
 `docker container ls` ist ein äquivalenter Befehl zu `docker ps` und kann ebenfalls verwendet werden, um Container zu listen.
